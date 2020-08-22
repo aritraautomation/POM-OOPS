@@ -12,8 +12,8 @@ import java.util.Properties;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -22,7 +22,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 //import com.crm.qa.base.EventFiringWebDriver;
-import com.util.WebEventListener;
+//import com.util.WebEventListener;
 import com.myPages.BasePage;
 import com.myPages.Page;
 
@@ -38,8 +38,8 @@ public class BaseTest {
 	public Page page;
 	public Properties prop;
 	
-	public EventFiringWebDriver e_driver;
-	public WebEventListener eventListener;
+	//public EventFiringWebDriver e_driver;
+	//public WebEventListener eventListener;
 	
 	public BaseTest() throws IOException{
 	try{

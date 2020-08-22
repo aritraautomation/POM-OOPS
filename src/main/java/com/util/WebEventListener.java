@@ -1,5 +1,5 @@
-package com.util;
-/*************************************** PURPOSE **********************************
+/*package com.util;
+*//*************************************** PURPOSE **********************************
 
  - This class implements the WebDriverEventListener, which is included under events.
  The purpose of implementing this interface is to override all the methods and define certain useful  Log statements 
@@ -8,7 +8,7 @@ package com.util;
  Do not call any of these methods, instead these methods will be invoked automatically
  as an when the action done (click, findBy etc). 
 
- */
+ *//*
 
 import java.io.IOException;
 
@@ -20,6 +20,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 //import com.crm.qa.base.TestBase;
 import com.testPage.BaseTest;
+import com.testPage.*;
 
 public class WebEventListener extends BaseTest implements WebDriverEventListener {
 
@@ -69,11 +70,11 @@ public class WebEventListener extends BaseTest implements WebDriverEventListener
 
 	public void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured: " + error);
-		/*try {
+		try {
 			TestUtil.takeScreenshotAtEndOfTest();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}*/
+		}
 	}
 
 	public void beforeFindBy(By by, WebElement element, WebDriver driver) {
@@ -84,9 +85,9 @@ public class WebEventListener extends BaseTest implements WebDriverEventListener
 		System.out.println("Found Element By : " + by.toString());
 	}
 
-	/*
+	
 	 * non overridden methods of WebListener class
-	 */
+	 
 	public void beforeScript(String script, WebDriver driver) {
 	}
 
@@ -163,4 +164,4 @@ public class WebEventListener extends BaseTest implements WebDriverEventListener
 		
 	}
 
-}
+}*/

@@ -1,80 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="250958" started-at="2020-08-20T20:14:26Z" finished-at="2020-08-20T20:18:37Z">
+  <suite name="Suite" duration-ms="97200" started-at="2020-08-22T16:31:30Z" finished-at="2020-08-22T16:33:07Z">
     <groups>
     </groups>
-    <test name="hubspot test ChromeFirefox" duration-ms="250958" started-at="2020-08-20T20:14:26Z" finished-at="2020-08-20T20:18:37Z">
-      <class name="com.testPage.SetUpDockerGrid">
-        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:com.testPage.SetUpDockerGrid@c46bcd4]" name="startDockerGrid" is-config="true" duration-ms="150141" started-at="2020-08-20T20:14:26Z" finished-at="2020-08-20T20:16:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDockerGrid -->
-        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:com.testPage.SetUpDockerGrid@c46bcd4]" name="stopDockerGrid" is-config="true" duration-ms="5085" started-at="2020-08-20T20:18:32Z" finished-at="2020-08-20T20:18:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDockerGrid -->
-      </class> <!-- com.testPage.SetUpDockerGrid -->
+    <test name="hubspot test chrome" duration-ms="48134" started-at="2020-08-22T16:31:30Z" finished-at="2020-08-22T16:32:18Z">
       <class name="com.testPage.LoginPageTest">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="setUpTest" is-config="true" duration-ms="31003" started-at="2020-08-20T20:16:56Z" finished-at="2020-08-20T20:17:27Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="setUpTest" is-config="true" duration-ms="9496" started-at="2020-08-22T16:31:30Z" finished-at="2020-08-22T16:31:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.testPage.LoginPageTest@3234e239]" name="verifyLoginPageTitleTest" duration-ms="123" started-at="2020-08-20T20:17:27Z" finished-at="2020-08-20T20:17:27Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="verifyLoginPageTitleTest" duration-ms="1396" started-at="2020-08-22T16:31:39Z" finished-at="2020-08-22T16:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="4633" started-at="2020-08-20T20:17:27Z" finished-at="2020-08-20T20:17:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="150" started-at="2020-08-22T16:31:41Z" finished-at="2020-08-22T16:31:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="setUpTest" is-config="true" duration-ms="14101" started-at="2020-08-20T20:17:32Z" finished-at="2020-08-20T20:17:46Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="setUpTest" is-config="true" duration-ms="10433" started-at="2020-08-22T16:31:41Z" finished-at="2020-08-22T16:31:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:2, instance:com.testPage.LoginPageTest@3234e239]" name="verifyLoginPageHeaderTest" duration-ms="3378" started-at="2020-08-20T20:17:46Z" finished-at="2020-08-20T20:17:49Z">
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:2, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="verifyLoginPageHeaderTest" duration-ms="1233" started-at="2020-08-22T16:31:51Z" finished-at="2020-08-22T16:31:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="5311" started-at="2020-08-20T20:17:49Z" finished-at="2020-08-20T20:17:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="108" started-at="2020-08-22T16:31:53Z" finished-at="2020-08-22T16:31:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="setUpTest" is-config="true" duration-ms="12482" started-at="2020-08-20T20:17:54Z" finished-at="2020-08-20T20:18:07Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="setUpTest" is-config="true" duration-ms="9435" started-at="2020-08-22T16:31:53Z" finished-at="2020-08-22T16:32:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="verifyValidLoginTest()[pri:3, instance:com.testPage.LoginPageTest@3234e239]" name="verifyValidLoginTest" duration-ms="14264" started-at="2020-08-20T20:18:07Z" finished-at="2020-08-20T20:18:21Z">
+        <test-method status="PASS" signature="verifyValidLoginTest()[pri:3, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="verifyValidLoginTest" duration-ms="15648" started-at="2020-08-22T16:32:02Z" finished-at="2020-08-22T16:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="10356" started-at="2020-08-20T20:18:21Z" finished-at="2020-08-20T20:18:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@1a8a8f7c]" name="tearDown" is-config="true" duration-ms="192" started-at="2020-08-22T16:32:18Z" finished-at="2020-08-22T16:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testPage.LoginPageTest -->
-    </test> <!-- hubspot test ChromeFirefox -->
+    </test> <!-- hubspot test chrome -->
+    <test name="hubspot test firefox" duration-ms="97199" started-at="2020-08-22T16:31:30Z" finished-at="2020-08-22T16:33:07Z">
+      <class name="com.testPage.LoginPageTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="setUpTest" is-config="true" duration-ms="38309" started-at="2020-08-22T16:31:30Z" finished-at="2020-08-22T16:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.testPage.LoginPageTest@12cdcf4]" name="verifyLoginPageTitleTest" duration-ms="61" started-at="2020-08-22T16:32:08Z" finished-at="2020-08-22T16:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="5902" started-at="2020-08-22T16:32:08Z" finished-at="2020-08-22T16:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="setUpTest" is-config="true" duration-ms="14557" started-at="2020-08-22T16:32:14Z" finished-at="2020-08-22T16:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:2, instance:com.testPage.LoginPageTest@12cdcf4]" name="verifyLoginPageHeaderTest" duration-ms="282" started-at="2020-08-22T16:32:29Z" finished-at="2020-08-22T16:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="6389" started-at="2020-08-22T16:32:29Z" finished-at="2020-08-22T16:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="setUpTest" is-config="true" duration-ms="12501" started-at="2020-08-22T16:32:35Z" finished-at="2020-08-22T16:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="verifyValidLoginTest()[pri:3, instance:com.testPage.LoginPageTest@12cdcf4]" name="verifyValidLoginTest" duration-ms="13749" started-at="2020-08-22T16:32:48Z" finished-at="2020-08-22T16:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testPage.LoginPageTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="5402" started-at="2020-08-22T16:33:02Z" finished-at="2020-08-22T16:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testPage.LoginPageTest -->
+    </test> <!-- hubspot test firefox -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="com.report.ExtentReport"/>
   </listeners>
-  <test thread-count="2" verbose="3" name="hubspot test ChromeFirefox(failed)" parallel="methods">
+  <test thread-count="2" verbose="3" name="hubspot test firefox(failed)" parallel="methods">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.testPage.LoginPageTest">
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- com.testPage.LoginPageTest -->
     </classes>
-  </test> <!-- hubspot test ChromeFirefox(failed) -->
+  </test> <!-- hubspot test firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

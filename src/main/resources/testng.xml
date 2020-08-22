@@ -5,12 +5,13 @@
 		<listener class-name="com.report.ExtentReport" />
 	</listeners>
 	
-<!--   <test name="hubspot test chrome" parallel="methods" thread-count="5" >
+  <test name="hubspot test chrome" parallel="methods" thread-count="5" >
   	<parameter name="browser" value="chrome" />
     <classes>
+    <!-- <class name="com.testPage.SetUpDockerGrid"/> -->
       <class name="com.testPage.LoginPageTest"/>
      </classes>
-  </test> Test
+  </test>
 
 
  <test name="hubspot test firefox" parallel="methods" thread-count="5" >
@@ -18,15 +19,15 @@
     <classes>
       <class name="com.testPage.LoginPageTest"/>
      </classes>
-  </test> Test -->
+  </test>
   
-  <test name="hubspot test ChromeFirefox" parallel="methods" thread-count="5" >
+<!--   <test name="hubspot test ChromeFirefox" parallel="methods" thread-count="5" >
   	<parameter name="browser" value="chrome" />
   	<parameter name="browser" value="firefox" />
     <classes>
     <class name="com.testPage.SetUpDockerGrid"/>
       <class name="com.testPage.LoginPageTest"/>
      </classes>
-  </test>
+  </test> -->
   
-</suite> <!-- Suite -->
+</suite>
