@@ -44,7 +44,7 @@ public class BaseTest {
 	public BaseTest() throws IOException{
 	try{
 		prop = new Properties();
-		FileInputStream fis = new FileInputStream("/Automation/POM-OOPS/src/main/java/"
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/"
 				+ "com/config/config.properties");
 		prop.load(fis);
 	}catch(FileNotFoundException fe){

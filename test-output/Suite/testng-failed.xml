@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="com.report.ExtentReport"/>
   </listeners>
+  <test thread-count="2" verbose="3" name="hubspot test chrome(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testPage.LoginPageTest">
+        <methods>
+          <include name="verifyValidLoginTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginPageHeaderTest"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.testPage.LoginPageTest -->
+    </classes>
+  </test> <!-- hubspot test chrome(failed) -->
   <test thread-count="2" verbose="3" name="hubspot test firefox(failed)" parallel="methods">
     <parameter name="browser" value="firefox"/>
     <classes>
@@ -12,7 +25,6 @@
           <include name="verifyValidLoginTest"/>
           <include name="tearDown"/>
           <include name="verifyLoginPageHeaderTest"/>
-          <include name="verifyLoginPageTitleTest"/>
           <include name="setUpTest"/>
         </methods>
       </class> <!-- com.testPage.LoginPageTest -->
