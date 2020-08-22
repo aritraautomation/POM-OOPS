@@ -1,0 +1,34 @@
+version: "3"
+services:
+  selenium-hub:
+    image: selenium/hub:4.0.0-alpha-6-20200730
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+
+  chrome:
+    image: selenium/node-chrome:4.0.0-alpha-6-20200730
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+
+  firefox:
+    image: selenium/node-firefox:4.0.0-alpha-6-20200730
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+
+  opera:
+    image: selenium/node-opera:4.0.0-alpha-6-20200730
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
